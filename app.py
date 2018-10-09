@@ -7,9 +7,9 @@ import pandas as pd
 app = dash.Dash(__name__)
 server = app.server
 
-#app.css.append_css({'external_url': 'https://codepen.io/chriddyp/pen/bWLwgP.css'})
+app.css.append_css({'external_url': 'https://codepen.io/chriddyp/pen/bWLwgP.css'})
 
-df = pd.read_csv('data2.csv')
+df = pd.read_csv('data.csv')
 
 available_indicators = df['Indicator Name'].unique()
 
