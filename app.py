@@ -9,7 +9,7 @@ server = app.server
 
 app.css.append_css({'external_url': 'https://codepen.io/chriddyp/pen/bWLwgP.css'})
 
-df = pd.read_csv('data.csv')
+df = pd.read_csv('data2.csv')
 
 available_indicators = df['Indicator Name'].unique()
 
